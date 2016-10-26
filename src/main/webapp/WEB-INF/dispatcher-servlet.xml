@@ -17,7 +17,7 @@
 						">
  
  	<!-- ONDE ESTÃO OS COMPONENTES DO SPRING (EX:@Controller, @Repository, @Service e @Component )-->
-	<context:component-scan base-package="br.com.ciceroednilson"/>
+	<context:component-scan base-package="br.com.compracerta.plataforma"/>
 	
 	<!-- SEM ESSA TAG ELE NÃO RETORNA O JSON -->
 	<mvc:annotation-driven />
@@ -28,7 +28,7 @@
             
  	 <!-- GERENCIAMENTO DO JPA PELO SPRING-->
 	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">     
-    	<property name="persistenceUnitName" value="PERSISTENCE_UNIT" />	     
+    	<property name="persistenceUnitName" value="COMPRA_CERTA" />	     
  	</bean>
  	  
  	 <!-- gerenciamento da transação -->
