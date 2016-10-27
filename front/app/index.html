@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Compra Certa</title>
+    <link rel="stylesheet" href="resources/css/bootstrap/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="resources/css/bootstrap/bootstrap.min.css"/>
 </head>
 <body>
+<div class="container">
 
-    <script src="resources/js/angular/angular.min.js"></script>
-    <script src="resources/js/angular/angular-route.min.js"></script>
-    <script src="resources/js/jquery.min.js"></script>
+    <form class="form-signin">
+        <h2 class="form-signin-heading">Compra Certa</h2>
+        <label for="inputEmail" class="sr-only">E-mail</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus>
+        <label for="inputPassword" class="sr-only">Senha</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
 
+</div> <!-- /container -->
+
+<script src="resources/js/angular/angular.min.js"></script>
+<script src="resources/js/angular/angular-route.min.js"></script>
+<script src="resources/js/jquery.min.js"></script>
 </body>
 </html>
